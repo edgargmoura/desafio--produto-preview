@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 500px) {
+    section {
+        width: 400px;
+        height: 300px;
+        
+    }
+
+    section #imagem {
+        background: url('../images/image-product-desktop.jpg') no-repeat center center;
+        background-size: contain;
+        height: 300px;
+        width: 200px;
+        float: left;
+        border-radius: 5px 0px 0px 5px;
+        
+    }
+
+    section #review {
+        float: right;
+        width: 200px;
+        height: 300px;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    section #review #description {
+        line-height: 1.8em;
+        padding-bottom: 20px;
+    }
+
+    section #review #price {
+        padding-bottom: 20px;
+    }
+
+    section div#review span {
+        transform: translate(35px, -20px);
+    }
+
